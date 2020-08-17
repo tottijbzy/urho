@@ -11,5 +11,5 @@ function shorten(e){
 
 	fetch(`/shorten?url=${url}&key=${key}`);
 	
-	document.querySelector("h4").innerHTML = `Shortened at ?? <a href="https://sourcecode111.blogspot.com/${key}">https://sourcecode111.blogspot.com/${key}</a>`;
+	document.querySelector("h4").innerHTML = `Shortened at ?? <a href="https://jbzy2tech.blogspot.com/${key}">https://sourcecode111.blogspot.com/${key}</a>`;
 }
